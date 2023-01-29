@@ -304,7 +304,6 @@ h5,
 
 .bg-image.overlay {
   position: relative;
-  height: 100%;
 }
 
 .bg-image.overlay:after {
@@ -316,7 +315,6 @@ h5,
   bottom: 0;
   z-index: 0;
   width: 100%;
-  height: 100%;
   background: rgba(0, 0, 0, 0.7);
 }
 
@@ -819,6 +817,7 @@ h5,
   bottom: 0;
   right: 0;
   top: 0;
+  height: 100%;
   background: rgba(0, 0, 0, 0.4);
 }
 
@@ -831,13 +830,12 @@ h5,
 .site-blocks-cover,
 .site-blocks-cover .row {
   min-height: 600px;
-  height: calc(100vh);
+  height: 100vh;
 }
 
 .site-blocks-cover.inner-page-cover,
 .site-blocks-cover.inner-page-cover .row {
   min-height: 600px;
-  height: calc(30vh);
 }
 
 .site-blocks-cover h1 {
