@@ -409,6 +409,22 @@ h5,
   width: 100%;
 }
 
+.logo-image {
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .logo-image {
+    width: 70%;
+  }
+}
+
+@media (max-width:1098px) {
+  .logo-image {
+    width: 50%;
+  }
+}
+
 .site-navbar.transparent {
   background: transparent;
 }
