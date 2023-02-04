@@ -2027,3 +2027,11 @@ h5,
   justify-content: center;
   align-items: center;
 }
+
+.air-freight {
+  padding-top: 15vh;
+}
+
+.air-freight .air-freight-list {
+  list-style-type: disc;
+}
