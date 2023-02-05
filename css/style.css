@@ -2038,6 +2038,11 @@ h5,
   visibility: visible;
 }
 
+:root {
+  touch-action: pan-x pan-y;
+  height: 100%
+}
+
 #button i {
   display: flex;
   justify-content: center;
