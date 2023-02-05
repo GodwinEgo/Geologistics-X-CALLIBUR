@@ -2045,7 +2045,13 @@ h5,
 }
 
 .air-freight {
-  padding-top: 15vh;
+  padding-top: 25vh;
+}
+
+@media (min-width:500px)and(max-width:800px) {
+  .air-freight {
+    padding-top: 30vh;
+  }
 }
 
 .air-freight .air-freight-list {
