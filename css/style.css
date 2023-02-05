@@ -2088,6 +2088,7 @@ h5,
 
 .social-media .facebook i:hover {
   transform: rotate(360deg);
+  color: black;
 }
 
 .social-media .facebook:hover {
