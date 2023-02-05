@@ -2051,3 +2051,34 @@ h5,
 .air-freight .air-freight-list {
   list-style-type: disc;
 }
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media .facebook {
+  background-color: #02adf3;
+  width: 15%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s all ease-in-out;
+}
+
+.social-media .facebook i {
+  font-size: 1.4rem;
+  transition: 1s all ease-in-out;
+}
+
+.social-media .facebook i:hover {
+  transform: rotate(360deg);
+}
+
+.social-media .facebook:hover {
+  background-color: white;
+}
