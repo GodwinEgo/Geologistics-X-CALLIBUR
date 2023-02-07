@@ -1671,14 +1671,16 @@ h5,
   transform: scale(1.2);
 }
 
-.unit-1 {
+.unit-1,
+.unit-2 {
   position: relative;
   width: 100%;
   overflow: hidden;
   display: block;
 }
 
-.unit-1:after {
+.unit-1:after,
+.unit-2::after {
   content: "";
   z-index: 1;
   position: absolute;
@@ -1694,7 +1696,8 @@ h5,
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
 }
 
-.unit-1 img {
+.unit-1 img,
+.unit-2 img {
   -o-object-fit: cover;
   object-fit: cover;
   -webkit-transform: scale(1);
@@ -1703,7 +1706,9 @@ h5,
 }
 
 .unit-1 img,
-.unit-1 .unit-1-text {
+.unit-1 .unit-1-text,
+.unit-2 img,
+.unit-2 .unit-1-text {
   -webkit-transition: .3s all ease-in-out;
   -o-transition: .3s all ease-in-out;
   transition: .3s all ease-in-out;
