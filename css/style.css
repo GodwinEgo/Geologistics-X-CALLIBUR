@@ -2050,12 +2050,12 @@ h5,
 }
 
 .air-freight {
-  padding-top: 5vh;
+  padding-top: 25vh;
 }
 
 @media (min-width:500px)and(max-width:800px) {
   .air-freight {
-    padding-top: 10vh;
+    padding-top: 30vh;
   }
 }
 
