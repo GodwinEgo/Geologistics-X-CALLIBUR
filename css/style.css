@@ -1671,16 +1671,21 @@ h5,
   transform: scale(1.2);
 }
 
-.unit-1,
-.unit-2 {
+.unit-1 {
   position: relative;
   width: 100%;
   overflow: hidden;
   display: block;
 }
 
-.unit-1:after,
-.unit-2::after {
+.unit-2 {
+  position: relative;
+  width: 50%;
+  overflow: hidden;
+  display: block;
+}
+
+.unit-1:after {
   content: "";
   z-index: 1;
   position: absolute;
@@ -1696,7 +1701,14 @@ h5,
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
 }
 
-.unit-1 img,
+.unit-1 img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
 .unit-2 img {
   -o-object-fit: cover;
   object-fit: cover;
@@ -1746,7 +1758,12 @@ h5,
   bottom: 30px;
 }
 
-.unit-1:hover img {
+.partner img {
+  width: 50%;
+}
+
+.unit-1:hover img,
+.unit-2:hover img {
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
