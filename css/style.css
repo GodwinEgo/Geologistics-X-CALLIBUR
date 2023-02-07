@@ -22,6 +22,10 @@ a {
   transition: .3s all ease;
 }
 
+header {
+  box-shadow: 1px 1px 10px #02adf3;
+}
+
 a:hover,
 a:active,
 a:focus {
