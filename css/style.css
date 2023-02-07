@@ -1671,6 +1671,11 @@ h5,
   transform: scale(1.2);
 }
 
+.partner {
+  width: 70%;
+  margin: 5vh 15%;
+}
+
 .unit-1 {
   position: relative;
   width: 100%;
