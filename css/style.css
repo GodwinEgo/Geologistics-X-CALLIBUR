@@ -429,13 +429,13 @@ h5,
   }
 }
 
-@media (max-width: 990px) and (min-width: 769px) {
+@media (max-width: 991px) and (min-width: 769px) {
   .logo-image {
     width: 60%;
   }
 }
 
-@media (max-width: 1023px) and (min-width: 991px) {
+@media (max-width: 1223px) and (min-width: 991px) {
   .logo-image {
     width: 50%;
   }
